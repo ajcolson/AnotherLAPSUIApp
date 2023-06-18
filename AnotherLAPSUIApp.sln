@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnotherLAPSUIApp", "AnotherLAPSUIApp.csproj", "{10AAED81-5C72-43B7-B4B8-C4E6C679C7E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10AAED81-5C72-43B7-B4B8-C4E6C679C7E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10AAED81-5C72-43B7-B4B8-C4E6C679C7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10AAED81-5C72-43B7-B4B8-C4E6C679C7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10AAED81-5C72-43B7-B4B8-C4E6C679C7E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14418FB4-18A8-4D3E-9BB2-5EF10A694B55}
+	EndGlobalSection
+EndGlobal
