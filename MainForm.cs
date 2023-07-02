@@ -33,7 +33,7 @@ namespace AnotherLAPSUIApp
                 string password = askDCForPassword(hostname);
                 if (password.Contains("get-adcomputer : Cannot find an object with identity:"))
                 {
-                    MessageBox.Show("There is no computer with the name \"" + hostname + "\" in Baxter AD. Please try a different search.", "Computer Not Found", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("There is no computer with the name \"" + hostname + "\" in AD. Please try a different search.", "Computer Not Found", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
@@ -68,7 +68,7 @@ namespace AnotherLAPSUIApp
             }
             catch (Exception e)
             {
-                MessageBox.Show("Error trying to lookup Baxter password.\n\n\nSource:\n" + e.Source + "\nMessage:\n" + e.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error trying to lookup password.\n\n\nSource:\n" + e.Source + "\nMessage:\n" + e.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             removeLookupScript(path);
